@@ -18,33 +18,25 @@ Before using this project, ensure you have the following:
   - [Deepgram API](https://deepgram.com)
   - [Eleven Labs API](https://elevenlabs.com)
 
-## 🛠 Installation
 
-1. **Clone this repository** or download the script:
-
-   ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
-   cd yourprojectname
-
-
-📖 Usage Instructions
+##📖 Usage Instructions
 Download YouTube Video: Provide the URL of the YouTube video you wish to process.
 Extract Audio: The script will automatically extract audio from the downloaded video.
 Transcribe Audio: Transcription is handled via the Deepgram API, converting audio into text.
 Generate Speech: Use Eleven Labs to convert the transcription back into speech.
-⚙️ Configuration
+##⚙️ Configuration
 Before running the script, update your API keys in the script:
 
 
-🧐 How It Works
+##🧐 How It Works
 Download Step: Videos are downloaded from YouTube in the best available quality.
 Audio Extraction Step: Extract audio from videos and save as WAV files.
 Transcription Step: Send the audio file to the Deepgram API for transcription.
 Speech Generation Step: Convert transcribed text into speech using the Eleven Labs API.
-📝 Notes
+##📝 Notes
 Ensure you have valid API keys for both Deepgram and Eleven Labs.
 The script saves output files (video, audio, transcription, and speech) in the specified directory.
-📄 License
+##📄 License
 This project is open-source and available for use under the MIT License.
 
 Enjoy automating your video, audio, and transcription workflows!
